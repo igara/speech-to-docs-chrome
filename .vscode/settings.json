@@ -1,0 +1,15 @@
+{
+  "eslint.enable": true,
+  "prettier.stylelintIntegration": true,
+  "javascript.validate.enable": false,
+  "javascript.format.enable": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.renderControlCharacters": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  "files.exclude": {
+    ".next": true,
+    "node_modules": true
+  }
+}

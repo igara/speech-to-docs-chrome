@@ -1,0 +1,39 @@
+{
+  "name": "speech-to-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igara/speech-to-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igara/speech-to-docs/issues"
+  },
+  "homepage": "https://github.com/igara/speech-to-docs#readme",
+  "devDependencies": {
+    "@types/chrome": "0.0.122",
+    "@types/react": "16.9.44",
+    "@types/react-dom": "16.9.8",
+    "copy-webpack-plugin": "6.0.3",
+    "css-loader": "4.2.1",
+    "style-loader": "1.2.1",
+    "ts-loader": "8.0.2",
+    "typed-css-modules-webpack-plugin": "0.2.0",
+    "typescript": "3.9.7",
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
